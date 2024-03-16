@@ -1,0 +1,24 @@
+{
+  "name": "lazy-load-video",
+  "version": "1.0.0",
+  "description": "A custom video player with lightbox that lazy loads your Webflow videos and making sure they only laod once they get into view (using Lozad.js) and Plyr.js video player.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lozad": "^1.16.0",
+    "plyr": "^3.7.8"
+  },
+  "devDependencies": {
+    "css-loader": "^6.10.0",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  }
+}
